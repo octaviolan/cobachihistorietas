@@ -11,3 +11,10 @@
   font-weight: bold;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('../fonts/PlusJakartaSans-Light.ttf');
+  font-weight: lighter;
+  font-style: normal;
+}

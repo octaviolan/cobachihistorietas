@@ -7,24 +7,27 @@
 
 .grid {
   border-radius: 8px;
-  padding: 24px;
+  padding: 20px;
   color: var(--white);
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: space-between;
+
+  /* gap: 6px; */
 }
 
 .grid p {
   font-style: italic;
   font-weight: normal;
   font-size: 14px;
+  margin: 0;
 }
 
 .grid .title {
   font-weight: bold;
-  font-size: 24px;
+  font-size: 18px;
+  text-align: end;
   margin: 0;
-  align-self: end;
 }
 
 .tuscany1 {
