@@ -1,0 +1,29 @@
+@import './fonts.css';
+@import './wrapper.css';
+@import './button.css';
+@import './header.css';
+@import './hero.css';
+
+:root {
+  --black: #030303;
+  --mediumBrown: #7A746E;
+  --lightCream: #FFF7F0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  margin: 0;
+  background-color: var(--lightCream);
+}
+
+@media screen and (min-width: 1024px) {
+  
+
+  body {
+    border: 1px solid red;
+  }
+}

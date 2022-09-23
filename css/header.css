@@ -1,0 +1,21 @@
+.header {
+  margin-top: 16px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    margin-top: 34px;
+  }
+  .header-content img {
+    width: 64px;
+    height: 64px;
+  }
+}
