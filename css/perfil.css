@@ -1,4 +1,4 @@
-.perfil {
+.perfil-content {
   margin-bottom: 100px;
   display: flex;
   flex-direction: column;
@@ -11,7 +11,7 @@
   display: block;
   margin: 0 auto;
   border-radius: 50%;
-  background-color: var(--tuscany2);
+  background-color: var(--tuscany3);
   position: relative;
   overflow: hidden;
 }
@@ -39,6 +39,7 @@
 
 .perfil-body p {
   color: var(--mediumBrown);
+  line-height: 28px;
   margin: 0;
 }
 
@@ -47,7 +48,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .perfil {
+  .perfil-content {
     flex-direction: row;
     margin-bottom: 88px;
   }

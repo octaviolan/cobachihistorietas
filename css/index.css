@@ -5,6 +5,7 @@
 @import './hero.css';
 @import './grid.css';
 @import './perfil.css';
+@import './contact.css';
 
 :root {
   --black: #030303;
@@ -12,12 +13,12 @@
   --lightCream: #FFF7F0;
   --white: #FFF;
   /* Section color */
-  --tuscany1: #730217;
-  --tuscany2: #0396A6;
-  --tuscany3: #F2B56B;
-  --tuscany4: #D96B52;
+  --tuscany1: #C71918;
+  --tuscany2: #E63F20;
+  --tuscany3: #78B53C;
+  --tuscany4: #2CA5DC;
   --tuscany5: #F2811D;
-  --tuscany6: #A62139;
+  --tuscany6: #FFA606;
 }
 
 html {

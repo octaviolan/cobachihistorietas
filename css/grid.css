@@ -1,4 +1,4 @@
-.section-grid {
+.grid-content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(6, 182px);
@@ -67,7 +67,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .section-grid {
+  .grid-content {
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(2, 182px);
     gap: 24px;

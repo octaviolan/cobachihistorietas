@@ -1,0 +1,33 @@
+.contact-content {
+  padding: 48px 24px;
+  background-color: var(--tuscany6);
+  border-radius: 10px;
+  color: var(--white);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.contact-content h3 {
+  font-size: 26px;
+  line-height: 32.76px;
+  margin: 0;
+}
+
+.contact-content p {
+  line-height: 26px;
+  margin: 0;
+}
+
+.contact-content .button {
+  align-self: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .contact-content {
+    padding: 80px 65px;
+  }
+}
+

@@ -2,7 +2,7 @@
   height: 44px;
   box-sizing: border-box;
   padding: 8px 28px;
-  background-color: #9E0632;
+  background-color: var(--tuscany1);
   color: #fff;
   border-radius: 28px;
   text-decoration: none;
@@ -10,6 +10,11 @@
   font-size: 14px;
   line-height: 28px;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  box-shadow: 5px 10px 30px rgba(212, 210, 244, 0.5);
+}
+
+.button:hover {
+  background-color: var(--tuscany2);
 }
 
 @media screen and (min-width: 1024px) {
