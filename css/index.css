@@ -6,6 +6,7 @@
 @import './grid.css';
 @import './perfil.css';
 @import './contact.css';
+@import './footer.css';
 
 :root {
   --black: #030303;
@@ -35,6 +36,6 @@ body {
   
 
   body {
-    border: 1px solid red;
+    
   }
 }
