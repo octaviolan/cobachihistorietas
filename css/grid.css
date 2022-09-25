@@ -3,6 +3,7 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(6, 182px);
   gap: 24px;
+  margin-bottom: 100px;
 }
 
 .grid {
@@ -12,8 +13,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-
-  /* gap: 6px; */
 }
 
 .grid p {
