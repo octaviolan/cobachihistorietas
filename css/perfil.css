@@ -1,5 +1,8 @@
 .perfil {
   margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .perfil-img {
@@ -11,7 +14,6 @@
   background-color: var(--tuscany2);
   position: relative;
   overflow: hidden;
-  margin-bottom: 40px;
 }
 
 .perfil-img img {
@@ -42,4 +44,42 @@
 
 .perfil-body .button {
   align-self: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .perfil {
+    flex-direction: row;
+    margin-bottom: 88px;
+  }
+
+  .perfil-body {
+    width: 540px;
+    text-align: left;
+    gap: 34px;
+    justify-content: center;
+  }
+
+  .perfil-img {
+    width: 445px;
+    height: 445px;
+  }
+
+  .perfil-img img {
+    top: 150px;
+    left: -50px;
+  }
+
+  .perfil-body h2 {
+    font-size: 40px;
+    line-height: 50.4px;
+  }
+
+  .perfil-body p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .perfil-body .button {
+    align-self: flex-start;
+  }
 }
