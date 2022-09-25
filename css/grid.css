@@ -11,12 +11,13 @@
   color: var(--white);
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
 
   /* gap: 6px; */
 }
 
 .grid p {
+  text-align: justify;
   font-style: italic;
   font-weight: normal;
   font-size: 14px;
