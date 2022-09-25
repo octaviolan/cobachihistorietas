@@ -12,11 +12,15 @@
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   box-shadow: 5px 10px 30px rgba(212, 210, 244, 0.5);
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: background-color, transform 0.3s;
 }
 
 .button:hover {
   background-color: var(--tuscany2);
+}
+
+.button:active {
+  transform: scale(0.98);
 }
 
 @media screen and (min-width: 1024px) {
