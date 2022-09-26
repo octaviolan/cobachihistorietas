@@ -44,7 +44,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: heart 1s infinite alternate-reverse;
+  animation: heart 0.75s linear infinite alternate-reverse;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -54,7 +54,7 @@
   }
 
   to {
-    transform: scale(1.05);
+    transform: scale(1.1);
   }
 }
 
