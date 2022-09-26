@@ -23,6 +23,32 @@
   transform: scale(0.98);
 }
 
+.btn-container {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+.btn-container button {
+  width: 64px;
+  height: 64px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--tuscany1);
+  cursor: pointer;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.btn-container button i {
+  color: var(--white);
+  font-size: 16px;
+}
+
+.btn-container button:active {
+  transform: scale(0.98);
+}
+
 @media screen and (min-width: 1024px) {
   .button {
     height: 56px;

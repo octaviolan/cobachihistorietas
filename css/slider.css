@@ -1,0 +1,73 @@
+.slider {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-bottom: 100px;
+}
+
+#historietas {
+  font-size:24px ;
+  line-height: 30px;
+  text-align: center;
+  margin: 0;
+}
+
+.slide-container {
+  width: 100vw;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  transition: all 0.25s ease-in-out;
+}
+
+.slide-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slide a {
+  position: absolute;
+  background-color: var(--tuscany1);
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.25s ease-in-out;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.slide a i {
+  color: var(--white);
+}
+
+.slide:nth-child(1) {
+  left: 0;
+  border: 1px solid red;
+}
+.slide:nth-child(2) {
+  left: 100%;
+}
+.slide:nth-child(3) {
+  left: 200%;
+}
+.slide:nth-child(4) {
+  left: 300%;
+}
+
+.slide {
+  transform: translateX(-200%);
+}
+
+
+
