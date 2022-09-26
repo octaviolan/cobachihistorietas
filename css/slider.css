@@ -14,7 +14,7 @@
 
 .slide-container {
   width: 100vw;
-  height: 300px;
+  height: 280px;
   position: relative;
   overflow: hidden;
 }
@@ -70,8 +70,9 @@
 @media screen and (min-width:1024px) {
   .slide-container {
     height: 400px;
-    width: 1000px;
+    width: 800px;
     margin: 0 auto;
+    box-shadow: 5px 10px 30px rgba(212, 210, 244, 0.5);
   }
 
   .slide {
