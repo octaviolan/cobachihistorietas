@@ -5,6 +5,8 @@
   margin-bottom: 100px;
 }
 
+
+
 #historietas {
   font-size:24px ;
   line-height: 30px;
@@ -24,6 +26,12 @@
   height: 100%;
   width: 100%;
   transition: all 0.5s ease-in-out;
+}
+
+.slide h3 {
+  position: absolute;
+  left: 15px;
+  color: var(--white);
 }
 
 .slide-img {
@@ -68,6 +76,9 @@
 
 
 @media screen and (min-width:1024px) {
+  #historietas {
+    font-size: 40px;
+  }
   .slide-container {
     height: 400px;
     width: 800px;
@@ -77,6 +88,11 @@
 
   .slide {
    overflow: hidden;
+  }
+
+  .slide h3 {
+    left: 25px;
+    font-size: 24px;
   }
 
   .slide a {
